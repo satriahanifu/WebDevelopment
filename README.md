@@ -1,2 +1,2 @@
 # WebDevelopment
-things a learn about WebDevelopment
+things I learn about WebDevelopment
