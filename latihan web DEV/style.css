@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header {
+    width :800px;
+    heigth : auto;
+	padding: 20px;
+    
+}
+
+body {
+    font: 16px/28px arial,sans-serif ;
+    background-color: #eaeaea;
+    color: #333;
+
+}
+
+.container {
+    width: 960px;
+    margin: 50px auto 0px;
+    background-color: #fff;
+	display: block;
+}
+
+.judul{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.container .header .navigasi li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+	color: salmon;
+}
+
+.navigasi li a:hover {
+	background-color: salmon;
+	color: rgb(102, 63, 63);
+}
+
+.banner {
+	background-image: url(banner.jpg);
+	display: block;
+	width: 960px;
+	margin: auto;
+	background-size: cover;
+	height: 350px;
+	background-position-y: -30px;
+	border-top: 5px solid lightseagreen;
+	border-bottom: 5px solid salmon;
+}
+.main{
+	width: 960px;
+	background-color: #fff;
+	box-sizing: border-box;
+	margin: auto;
+}
+.artikel{
+	padding: 20px;
+	margin: auto;
+	width: 600px;
+	float: left;
+	background-color: #fff;
+}
+
+h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.author{
+	font-size: 11px;
+}
+
+.footer{
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+	width : 960px;
+	margin : auto;
+}
+.footer .copy{
+	padding: 5px;
+}
+
+.bracket{
+	width: 800px;
+	margin :auto;
+	border :2px solid black;
+	padding: 5px;
+}
+.bracket1{
+	width: 266PX;
+	height: 800px;
+	background-color: slateblue;
+	float: left;
+}
+
+.bracket2{
+	width: 266px;
+	height: 800px;
+	background-color: springgreen;
+	float: left;
+}
+
+.bracket3{
+	width: 266px;
+	height: 800px;
+	background-color: yellow;
+	float: left;
+}
+
+.clear{
+	clear: left;
+}
+
+.main .profil{
+	float: left;
+	width: 200px;
+	margin:auto;
+	padding: 20px;
+}
+
+
+.profil .isi_title{
+	padding :5px;
+}
+
+.main .PP{
+	background-image: url(profil.jpg);
+	width: 120px;
+	height: 150px;
+	display : inline-block;
+	box-sizing : border-box;
+	background-size : cover;
+	margin-top :10px;
+}
+.main .profil .isi_profil{
+	font-size: 12px;
+}
+.ribbon{
+	width: 200px;
+	height: 131px;
+	display: inline-block;
+	background-image: url(ribbon.png);
+	background-repeat: no-repeat;
+	text-indent: -9999;
+	position: absolute;
+	top: 115px;
+	right: 110px;
+
+}
+.topbar{
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	background-color:lightskyblue;
+	border-bottom: 3px solid salmon;
+	z-index: 1;
+
+}
